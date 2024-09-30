@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #242428;
+}
+
+.gradient {
+  @apply absolute;
+  @apply inset-0;
+  background: radial-gradient(
+    52.23% 83.02% at 50.45% 26.98%,
+    rgba(37, 37, 41, 0) 0%,
+    #242428 100%
+  );
+}
